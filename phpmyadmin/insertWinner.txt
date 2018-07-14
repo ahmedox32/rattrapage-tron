@@ -1,0 +1,4 @@
+CREATE DEFINER=`root`@`ITron` 
+PROCEDURE `insertWinner` (IN winner Varchar(255)) NO SQL
+INSERT INTO  winner (Winner)
+VALUES(winner)
